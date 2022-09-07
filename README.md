@@ -50,7 +50,7 @@ Under Connect to Database , select database type as "Apache AGE"
 
 ## Documentation
 
-Here is the link to the latest [Apache AGE documentation](https://age.apache.org/docs/master/index.html).
+Here is the link to the latest [Apache AGE documentation](https://age.apache.org/age-manual/master/index.html).
 You can learn about how to install Apache AGE, its features and built-in functions and how to use various Cypher queries.
 
 ## Language Specific Drivers
