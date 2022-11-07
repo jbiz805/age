@@ -20,6 +20,30 @@
 <br>
 
 
+<p align="center">
+    <a href="https://age.apache.org/"><img height="25" src="/img/social/blog.svg" alt="Blog"></a>
+    &nbsp;
+    <a href="https://github.com/apache/age"><img height="25" src="/img/social/github.svg" alt="Github  "></a>
+    &nbsp;
+    <a href="linkedin.com/showcase/apache-age#:~:text=Apache%20AGE%20is%20a%20PostgreSQL,ANSI%20SQL%20along%20with%20openCypher."><img height="25" src="/img/social/linkedin.svg" alt="LinkedIn"></a>
+    &nbsp;
+    <a href="https://twitter.com/apache_age?lang=en"><img height="25" src="/img/social/twitter.svg" alt="Twitter"></a>
+    &nbsp;
+    <a href="https://www.youtube.com/channel/UCBJNYamALEqrfxiOCgYyP2g"><img height="25" src="/img/social/youtube.svg" alt="Youtube"></a>
+    &nbsp;
+    <a href="https://www.reddit.com/r/apacheage/"><img height="25" src="/img/social/dev.svg" alt="Reddit"></a>
+    &nbsp;
+    <a href="https://discord.gg/ndavZR2V"><img height="25" src="/img/social/discord.svg" alt="Discord"></a>
+    &nbsp;
+    <a href="https://lists.apache.org/list.html?dev@age.apache.org"><img height="25" src="/img/social/stack-overflow.svg" alt="Apache AGE Dev List"></a>
+
+</p>
+
+
+
+
+
+
 
 
 <p align="center">                                                                                                    
