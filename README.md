@@ -41,9 +41,6 @@
 
 </br>
 
-<h2><img height="20" src="/img/whatissurreal.svg">&nbsp;&nbsp;What is Apache AGE?</h2>
-
-
 
 
 <p align="center">                                                                                                    
@@ -72,6 +69,9 @@
 </p>
 
 <br>
+
+
+<h2><img height="20" src="/img/whatissurreal.svg">&nbsp;&nbsp;What is Apache AGE?</h2>
 
 [Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multimodel database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model.
 
