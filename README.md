@@ -13,8 +13,9 @@
     </a>
      is the leading multimodel graph database. </h3>
      
-     <h3 align="center">Develop easier. &nbsp; Build faster. &nbsp; Scale quicker.</h3>
+</h3>
 
+<h3 align="center">Develop easier. &nbsp; Build faster. &nbsp; Scale quicker.</h3>
 
 <br>
 
