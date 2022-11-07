@@ -7,7 +7,7 @@
 
 <h3 align="center">
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
-        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="25" height="30% alt="AGE DB">
+        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="25" height="30% alt="Apache AGE">
     </a>
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
     </a>
@@ -41,7 +41,7 @@
 
 
 
-
+<h2><img height="20" src="/img/whatissurreal.svg">&nbsp;&nbsp;What is Apache AGE?</h2>
 
 
 
