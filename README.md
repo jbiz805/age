@@ -4,6 +4,20 @@
      <img src="https://age.apache.org/age-manual/master/_static/logo.png" width="30%" height="30%">
 </p>
 
+
+<br>
+
+<p align="center">
+    <a href="https://surrealdb.com#gh-dark-mode-only" target="_blank">
+        <img width="300" src="https://age.apache.org/age-manual/master/_static/logo.png" alt="AGE DB Logo">
+    </a>
+    <a href="https://surrealdb.com#gh-light-mode-only" target="_blank">
+        <img width="300" src="https://age.apache.org/age-manual/master/_static/logo.png" alt="AGE DB Logo">
+    </a>
+</p>
+
+
+
 <br>
 
 <p align="center">                                                                                                    
