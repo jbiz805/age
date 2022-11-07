@@ -7,11 +7,11 @@
 
 <h3 align="center">
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
-        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="15" alt="AGE DB">
+        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="30" alt="AGE DB">
     </a>
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
     </a>
-    is the ultimate cloud <br> database for tomorrow's applications
+    is the leading multimodel graph <br> database for with all the features expected of a mature and robust database.
 </h3>
 
 
