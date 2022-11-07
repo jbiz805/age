@@ -11,7 +11,7 @@
     </a>
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
     </a>
-is the leading multimodel graph database, with all of the features that one would expect from a mature and robust database.</h3>
+is the leading multimodel graph database, <br> with all of the features that one would expect from a mature and robust database.</h3>
 
 
 
