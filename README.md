@@ -3,18 +3,18 @@
 <p align="center">
      <img src="https://age.apache.org/age-manual/master/_static/logo.png" width="30%" height="30%">
 </p>
-
-
 <br>
 
-<p align="center">
+<h3 align="center">
     <a href="https://surrealdb.com#gh-dark-mode-only" target="_blank">
-        <img width="300" src="https://age.apache.org/age-manual/master/_static/logo.png" alt="AGE DB Logo">
+        <img src="/img/white/text.svg" height="15" alt="AGE DB">
     </a>
     <a href="https://surrealdb.com#gh-light-mode-only" target="_blank">
-        <img width="300" src="https://age.apache.org/age-manual/master/_static/logo.png" alt="AGE DB Logo">
+        <img src="/img/black/text.svg" height="15" alt="AGE DB">
     </a>
-</p>
+    is the multimodel <br> database for tomorrow's applications
+</h3>
+
 
 
 
