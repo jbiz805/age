@@ -5,7 +5,7 @@
 </p>
 <br>
 
-h3 align="center">
+<h3 align="center">
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
         <img src="https://age.apache.org/age-manual/master/_static/logo.png" height="15" alt="SurrealDB">
     </a>
