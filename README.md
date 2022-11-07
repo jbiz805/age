@@ -7,7 +7,7 @@
 
 <h3 align="center">
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
-        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="30" height="30% alt="AGE DB">
+        <img src="https://age.apache.org/age-manual/master/_static/logo.png"" height="25" height="30% alt="AGE DB">
     </a>
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
     </a>
