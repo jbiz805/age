@@ -10,7 +10,7 @@
         <img src="/img/white/text.svg" height="15" alt="AGE DB">
     </a>
     <a href="https://surrealdb.com#gh-light-mode-only" target="_blank">
-        <img src="/img/black/text.svg" height="15" alt="AGE DB">
+        <img src="https://age.apache.org/age-manual/master/_static/logo.png" height="15" alt="AGE DB">
     </a>
     is the multimodel <br> database for tomorrow's applications
 </h3>
