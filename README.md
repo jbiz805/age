@@ -83,6 +83,16 @@
 - **Intelligent**: allows you to perform graph queries that are the basis for many next level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management and more.
 
 
+
+
+<h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
+- [x] Multimodel database server
+- [x] Multi-row, multi-table ACID transactions
+- [x] Store structured and unstructured data
+- [x] Store and model data in any way with tables, documents, and graph
+
+
+
 <h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Overview</h2>
 
 
