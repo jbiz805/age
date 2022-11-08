@@ -87,8 +87,8 @@
 
 
 <h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
-- [x] Database server, or embedded library
-- [x] Multi-row, multi-table ACID transactions
+- [X] Multimodel Graph Database
+
 
 
 
