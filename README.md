@@ -87,7 +87,10 @@
 
 - **Cypher Query** Language Support.
 - **Hybrid Querying** using SQL and Cypher.
-- **Querying** Multiple Graphs
+- **Querying** Multiple Graphs.
+- **Hierarchical** Graph Label Organization
+- **Property Indexes** on both Vertexes and Edges
+- **Full PostgreSQL** Features Support
 
 
 
