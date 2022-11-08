@@ -83,9 +83,9 @@
 - **Intelligent**: allows you to perform graph queries that are the basis for many next level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management and more.
 
 
-<h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Apache AGE is:</h2>
+<h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
 
-- **Powerful**: adds graph database support to the already popular PostgreSQL database: PostgreSQL is used by organizations including Apple, Spotify, and NASA.
+- **Cypher Query** Language Support
 - **Flexible**: allows you to perform openCypher queries, which make complex queries much easier to write.
 - **Intelligent**: allows you to perform graph queries that are the basis for many next level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management and more.
 
