@@ -117,11 +117,19 @@
 
 Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual/master/index.html) to learn about installation, features and built-in functions, and  Cypher queries.
 
-## Installation
+<h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
+
+Apache AGE is intended to be simple to install and run, requiring only one command from your terminal. Apache AGE  can be installed with Docker and the traditional ways. 
 
 - [Installing from source](https://age.apache.org/download)
 - [Apache AGE setup guide](https://age.apache.org/age-manual/master/intro/setup.html#)
 - [Installing via docker image](https://age.apache.org/age-manual/master/intro/setup.html#installing-via-docker-image)
+
+<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/apple.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/apple.svg"></a>
+&nbsp;Install on macOS
+</h4>
+
+
 
 ## Language Specific Drivers
 
