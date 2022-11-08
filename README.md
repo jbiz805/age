@@ -127,8 +127,14 @@ Install the following essential libraries according to each OS. Building AGE fro
 ```bash
 yum install gcc glibc glib-common readline readline-devel zlib zlib-devel flex bison
 ```
-
-
+- **Fedora**
+```bash
+dnf install gcc glibc bison flex readline readline-devel zlib zlib-devel
+```
+- **Ubuntu**
+```bash
+sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
+```
 
 <h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
 
