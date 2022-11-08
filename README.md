@@ -138,6 +138,34 @@ brew install surrealdb/tap/surreal
 
 
 
+<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/linux.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/linux.svg"></a>
+&nbsp;Install on Linux
+</h4>
+
+
+
+
+<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/windows.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/windows.svg"></a>
+&nbsp;Install on Windows
+</h4>
+
+
+```bash
+iwr https://windows.surrealdb.com -useb | iex
+```
+
+<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/docker.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/docker.svg"></a>
+&nbsp;Run using Docker
+</h4>
+
+```bash
+docker run --rm --name surrealdb -p 127.0.0.1:8000:8000 surrealdb/surrealdb:latest start --log trace --user root --pass root memory
+
+
+
+
+
+
 
 
 
