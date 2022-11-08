@@ -73,9 +73,7 @@
 
 <h2><img height="20" src="/img/AGE.png">&nbsp;&nbsp;What is Apache AGE?</h2>
 
-[Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multimodel database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model.
-</br>
-The goal of Apache AGE® is to provide graph data processing and analytics capability to all relational databases.Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. Users can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.
+[Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multimodel database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model.The goal of Apache AGE is to provide graph data processing and analytics capability to all relational databases.Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. Users can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.
 
 
 <h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Apache AGE is:</h2>
