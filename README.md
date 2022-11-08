@@ -87,7 +87,7 @@
 
 
 <h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
-- **Cypher Query Language Support
+- **Cypher Query Language Support**
 - **Hybrid Querying using SQL and Cypher
 - **Querying Multiple Graphs
 - **Hierarchical Graph Label Organization
