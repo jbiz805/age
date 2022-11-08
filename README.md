@@ -113,7 +113,7 @@
 - Send all your comments and inquiries to the user mailing list, users@age.apache.org.
 - Support for PostgreSQL will be added in the Q4 2022 to focus more on implementing the openCypher specification.
 
-<h2><img height="20" src="/img/documentation.svg">&nbsp;&nbsp;Latest Events</h2>
+<h2><img height="20" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
 
 Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual/master/index.html) to learn about installation, features and built-in functions, and  Cypher queries.
 
