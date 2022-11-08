@@ -82,14 +82,17 @@
 - **Flexible**: allows you to perform openCypher queries, which make complex queries much easier to write.
 - **Intelligent**: allows you to perform graph queries that are the basis for many next level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management and more.
 
-## Overview
+
+<h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Overview</h2>
+
 
 - **Apache AGE is currently being developed for the PostgreSQL 12 release** and will support PostgreSQL 13 and all the future releases of PostgreSQL.
 - Apache AGE supports the openCypher graph query language.
 - Apache AGE enables querying multiple graphs at the same time.
 - The goal of Apache AGE is to make it compatible with all relational databases in the future.
 
-## Latest Events
+
+<h2><img height="20" src="/img/contributing.svg">&nbsp;&nbsp;Latest Events</h2>
 
 - Latest Apache AGE release, [Apache AGE 1.1.0](https://github.com/apache/age/releases/tag/v1.1.0-rc0).
 - Renewed Apache AGE homepage - [Apache AGE website](http://age.apache.org/).
