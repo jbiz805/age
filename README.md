@@ -195,8 +195,7 @@ docker run --rm --name surrealdb -p 127.0.0.1:8000:8000 surrealdb/surrealdb:late
 
 
 
-
-## Language Specific Drivers
+<h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Language Specific Drivers</h2>
 
 ### Built-in
 
