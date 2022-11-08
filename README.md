@@ -75,7 +75,6 @@
 
 [Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multimodel database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model.
 
-A graph consists of a set of vertices (also called nodes) and edges, where each individual vertex and edge possesses a map of properties. A vertex is the basic object of a graph, that can exist independently of everything else in the graph. An edge creates a directed connection between two vertices. A graph database is simply composed of vertices and edges. This type of database is useful when the meaning is in the relationships between the data. Relational databases can easily handle direct relationships, but indirect relationships are more difficult to deal with in relational databases. A graph database stores relationship information as a first-class entity. Apache AGE gives you the best of both worlds, simultaneously.
 
 <h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Apache AGE is:</h2>
 
