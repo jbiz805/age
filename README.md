@@ -144,12 +144,11 @@ Apache AGE is intended to be simple to install and run, requiring only one comma
 &nbsp;Install PosgtreSQL
 </h4>
 
-You will need to install a AGE compatible version of Postgres, for now AGE only supports Postgres 11 and 12.
+You will need to install a AGE compatible version of Postgres, for Postgres 12.
 
 ```bash
-yum install gcc glibc glib-common readline readline-devel zlib zlib-devel flex bison
+sudo apt install postgresql-12
 ```
-
 
 
 <h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/apple.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/apple.svg"></a>
