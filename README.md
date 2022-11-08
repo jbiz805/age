@@ -142,8 +142,9 @@ brew install surrealdb/tap/surreal
 &nbsp;Install on Linux
 </h4>
 
-
-
+```bash
+iwr https://windows.surrealdb.com -useb | iex
+```
 
 <h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/windows.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/windows.svg"></a>
 &nbsp;Install on Windows
@@ -160,8 +161,7 @@ iwr https://windows.surrealdb.com -useb | iex
 
 ```bash
 docker run --rm --name surrealdb -p 127.0.0.1:8000:8000 surrealdb/surrealdb:latest start --log trace --user root --pass root memory
-
-
+```
 
 
 
