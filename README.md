@@ -87,8 +87,10 @@
 
 
 <h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
+- **Apache AGE is currently being developed for the PostgreSQL 12 release** and will support PostgreSQL 13 and all the future releases of PostgreSQL.
 - Apache AGE supports the openCypher graph query language.
-- - Apache AGE supports the openCypher graph query language.
+- Apache AGE enables querying multiple graphs at the same time.
+- The goal of Apache AGE is to make it compatible with all relational databases in the future.
 
 
 
