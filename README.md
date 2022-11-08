@@ -122,6 +122,16 @@ Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual
 Apache AGE is intended to be simple to install and run, requiring only one command from your terminal. Apache AGE  can be installed with Docker and the traditional ways. 
 
 
+<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/pg.svg"></a>
+&nbsp;Install PosgtreSQL
+</h4>
+
+You will need to install a AGE compatible version of Postgres, for now AGE only supports Postgres 11 and 12.
+
+```bash
+yum install gcc glibc glib-common readline readline-devel zlib zlib-devel flex bison
+```
+
 
 
 <h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/apple.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/apple.svg"></a>
