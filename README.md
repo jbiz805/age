@@ -89,15 +89,6 @@
 <h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
 - [x] Database server, or embedded library
 - [x] Multi-row, multi-table ACID transactions
-- [x] Single-node, or highly-scalable distributed mode
-- [x] Record links and directed typed graph connections
-- [x] Store structured and unstructured data
-- [x] Incrementally computed views for pre-computed advanced analytics
-- [x] Realtime-api layer, and security permissions built in
-- [x] Store and model data in any way with tables, documents, and graph
-- [x] Simple schema definition for frontend and backend development
-- [x] Connect and query directly from web-browsers and client devices
-- [x] Use embedded JavaScript functions for custom advanced functionality
 
 
 
