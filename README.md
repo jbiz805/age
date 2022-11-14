@@ -73,45 +73,28 @@
 
 <h2><img height="20" src="/img/AGE.png">&nbsp;&nbsp;What is Apache AGE?</h2>
 
-[Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multimodel database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model.The goal of Apache AGE is to provide graph data processing and analytics capability to all relational databases.Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. Users can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.
+[Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multi-model database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model. The goal of Apache AGE is to provide graph data processing and analytics capability to all relational databases. Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. Users can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.
 
 
-<h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Apache AGE is:</h2>
+<h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Overview</h2>
+
+Apache AGE is : 
 
 - **Powerful**: adds graph database support to the already popular PostgreSQL database: PostgreSQL is used by organizations including Apple, Spotify, and NASA.
-- **Flexible**: allows you to perform openCypher queries, which make complex queries much easier to write.
+- **Flexible**: allows you to perform openCypher queries, which make complex queries much easier to write. Also enables multiple graphs at the same time.
 - **Intelligent**: allows you to perform graph queries that are the basis for many next level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management and more.
 
 
 <h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
 
-- **Cypher Query** Language Support.
-- **Hybrid Querying** using SQL and Cypher.
-- **Querying** Multiple Graphs.
-- **Hierarchical** Graph Label Organization
-- **Property Indexes** on both Vertexes and Edges
-- **Full PostgreSQL** Features Support
+- **Cypher Query**: supported graph query language
+- **Hybrid Querying**: enable SQL and/or Cypher
+- **Querying**: enable multiple graphs
+- **Hierarchical**: graph label organization
+- **Property Indexes**: on both vertices(nodes) and edges
+- **Full PostgreSQL**: supports PG features
 
 
-
-
-
-
-<h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Overview</h2>
-
-
-- **Apache AGE is currently being developed for the PostgreSQL 12 release** and will support PostgreSQL 13 and all the future releases of PostgreSQL.
-- Apache AGE supports the openCypher graph query language.
-- Apache AGE enables querying multiple graphs at the same time.
-- The goal of Apache AGE is to make it compatible with all relational databases in the future.
-
-
-<h2><img height="20" src="/img/contributing.svg">&nbsp;&nbsp;Latest Events</h2>
-
-- Latest Apache AGE release, [Apache AGE 1.1.0](https://github.com/apache/age/releases/tag/v1.1.0-rc0).
-- Renewed Apache AGE homepage - [Apache AGE website](http://age.apache.org/).
-- Send all your comments and inquiries to the user mailing list, users@age.apache.org.
-- Support for PostgreSQL will be added in the Q4 2022 to focus more on implementing the openCypher specification.
 
 <h2><img height="20" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
 
@@ -213,10 +196,11 @@ Through this simple web visualization tool, users can enter complex graph querie
 Apache AGE Viewer is enhanced to proceed with large graph data and discover the insights through various graph algorithms.
 Apache AGE Viewer will become a graph data administration and development platform for Apache AGE to support multiple relational databases: <https://github.com/apache/age-viewer>.
 
-- This is a visualization tool.
+**This is a visualization tool.**
 After installing AGE Extension, you may use this tool to get access to the visualization features.
 
 ## Contribution
 
 You can improve ongoing efforts or initiate new ones by sending pull requests to [this repository](https://github.com/apache/age).
 Also, you can learn from the code review process, how to merge pull requests, and from code style compliance to documentation, by visiting the [Apache AGE official site - Developer Guidelines](https://age.apache.org/contribution/guide).
+Send all your comments and inquiries to the user mailing list, users@age.apache.org.
