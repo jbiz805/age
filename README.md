@@ -136,8 +136,17 @@ brew install surrealdb/tap/surreal
 &nbsp;Install on Linux
 </h4>
 
+<h4>  Clone the github repository or download an official release. Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL </h4>
+
+
 ```bash
-iwr https://windows.surrealdb.com -useb | iex
+pg_config
+```
+```bash
+make install
+```
+```bash
+make PG_CONFIG=/path/to/postgres/bin/pg_config install
 ```
 
 
@@ -145,12 +154,24 @@ iwr https://windows.surrealdb.com -useb | iex
 &nbsp;Run using Docker
 </h4>
 
+<h5> Get the docker image </h5>
+
 ```bash
-docker run --rm --name surrealdb -p 127.0.0.1:8000:8000 surrealdb/surrealdb:latest start --log trace --user root --pass root memory
+docker pull apache/age
+
 ```
+<h5> Create AGE docker container </h5>
 
-
-
+```bash
+docker run \
+    --name age  \
+    -p 5455:5432 \
+    -e POSTGRES_USER=postgresUser \
+    -e POSTGRES_PASSWORD=postgresPW \
+    -e POSTGRES_DB=postgresDB \
+    -d \
+    apache/age
+```
 
 
 
