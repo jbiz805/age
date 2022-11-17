@@ -11,33 +11,14 @@
     </a>
     <a href="https://age.apache.org/age-manual/master/_static/logo.png" target="_blank">
     </a>
-     is the Leading Multimodel Graph Database. </h3>
+     is the leading multi-model graph database </h3>
      
 </h3>
 
-<h3 align="center">Develop easier. &nbsp; Build faster. &nbsp; Scale quicker.</h3>
+<h3 align="center">Graph Processing & Analytics for Relational Databases</h3>
 
 <br>
 
-
-<p align="center">
-    <a href="https://age.apache.org/"><img height="25" src="/img/social/blog.svg" alt="Blog"></a>
-    &nbsp;
-    <a href="https://github.com/apache/age"><img height="25" src="/img/social/github.svg" alt="Github  "></a>
-    &nbsp;
-    <a href="linkedin.com/showcase/apache-age#:~:text=Apache%20AGE%20is%20a%20PostgreSQL,ANSI%20SQL%20along%20with%20openCypher."><img height="25" src="/img/social/linkedin.svg" alt="LinkedIn"></a>
-    &nbsp;
-    <a href="https://twitter.com/apache_age?lang=en"><img height="25" src="/img/social/twitter.svg" alt="Twitter"></a>
-    &nbsp;
-    <a href="https://www.youtube.com/channel/UCBJNYamALEqrfxiOCgYyP2g"><img height="25" src="/img/social/youtube.svg" alt="Youtube"></a>
-    &nbsp;
-    <a href="https://www.reddit.com/r/apacheage/"><img height="25" src="/img/social/dev.svg" alt="Reddit"></a>
-    &nbsp;
-    <a href="https://discord.gg/ndavZR2V"><img height="25" src="/img/social/discord.svg" alt="Discord"></a>
-    &nbsp;
-    <a href="https://lists.apache.org/list.html?dev@age.apache.org"><img height="25" src="/img/social/stack-overflow.svg" alt="Apache AGE Dev List"></a>
-
-</p>
 
 </br>
 
@@ -73,8 +54,11 @@
 
 <h2><img height="20" src="/img/AGE.png">&nbsp;&nbsp;What is Apache AGE?</h2>
 
-[Apache AGE](https://age.apache.org/#) is a PostgreSQL Extension that provides graph database functionality. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multi-model database fork of PostgreSQL. The goal of the project is to enable users of Postgres to use graph query modeling in unison with Postgres' existing relational model. The goal of Apache AGE is to provide graph data processing and analytics capability to all relational databases. Through Apache AGE, PostgreSQL users will gain access to graph query modeling within the existing relational database. Users can read and write graph data in nodes and edges. They can also use various algorithms such as variable length and edge traversal when analyzing data.
+[Apache AGE](https://age.apache.org/#) is an extension for PostgreSQL that enables the users to leverage a graph database on top of the existing relational databases. AGE is an acronym for A Graph Extension, and is inspired by Bitnine's AgensGraph, a multi-model database fork of PostgreSQL. The basic principle of the project is to create a single storage that handles both the relational and graph data model so that the users can use the standard ANSI SQL along with openCypher, one of the most popular graph query language today. 
 
+Since AGE is based on the powerful PostgreSQL RDBMS, it is robust and fully-featured. AGE is optimized for handling complex connected graph data and provides plenty of powerful database features essential to the database environment, including ACID transactions, multi-version concurrency control (MVCC), stored procedure, triggers, constraints, sophisticated monitoring, and a flexible data model (JSON). Users with a relational background who are in need of graph data analytics can use this extension with minimal effort because they can use existing data without having to go through migration. 
+
+There is a strong need for cohesive, easy-to-implement multi-model databases. As an extension of PostgreSQL, AGE supports all the functionalities and features of PostgreSQL, while also offering graph model to boot.
 
 <h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Overview</h2>
 
