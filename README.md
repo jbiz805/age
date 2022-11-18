@@ -133,10 +133,8 @@ brew install surrealdb/tap/surreal
 
 
 <h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/linux.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/linux.svg"></a>
-&nbsp;Install on Linux
+&nbsp;Install on Linux </br></br> Clone the github repository or download an official release.
 </h4>
-
-<h4>  Clone the github repository or download an official release. Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL </h4>
 
 
 ```bash
@@ -175,22 +173,140 @@ docker run \
 
 
 
+<h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Getting Started</h2>
+
+
+
+
+
+
+
 <h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Language Specific Drivers</h2>
 
-### Built-in
+Starting with Apache AGE is very simple. You can easily select your platform and incorporate the relevant SDK into your code.
+
+<h4>Built-in</h4>
 
 - [Go driver](./drivers/golang)
 - [Java driver](./drivers/jdbc)
 - [NodeJs driver](./drivers/nodejs)
 - [Python driver](./drivers/python)
 
-### Community-driven Driver
+<h4>Community-driven Driver</h4>
+
 - [Apache AGE Rust Driver](https://github.com/Dzordzu/rust-apache-age.git)
 
 
 
+<h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Post Installation</h2>
 
-<h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Quick look</h2>
+For every connection of AGE you start you will need to load the AGE extension.
+
+```bash
+CREATE EXTENSION age;
+```
+```bash
+LOAD 'age';
+```
+```bash
+SET search_path = ag_catalog, "$user", public;
+```
+
+
+<h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Quick Start</h2>
+
+To create a graph, use the create_graph function, located in the ag_catalog namespace.
+
+```bash
+create_graph(graph_name);
+```
+
+To create a single vertex, use the CREATE clasue. 
+
+```bash
+SELECT * 
+FROM cypher('graph_name', $$
+    CREATE (n)
+$$) as (v agtype);
+```
+
+
+To create a single vertex with label, use the CREATE clasue. 
+
+```bash
+SELECT * 
+FROM cypher('graph_name', $$
+    CREATE (:label)
+$$) as (v agtype);
+```
+
+To query the graph, you can use the MATCH clause.  
+
+```bash
+SELECT * FROM cypher('graph_name', $$
+MATCH (v)
+RETURN v
+$$) as (v agtype);
+```
+
+To create an edge, for example between two nodes, you can use the follwoing. 
+
+```bash
+SELECT * 
+FROM cypher('graph_name', $$
+    MATCH (a:lable), (b:lable)
+    WHERE a.property = 'Node A' AND b.property = 'Node B'
+    CREATE (a)-[e:RELTYPE]->(b)
+    RETURN e
+$$) as (e agtype);
+```
+
+
+To create an edge and set properties
+
+```bash
+SELECT * 
+FROM cypher('graph_name', $$
+    MATCH (a:label), (b:label)
+    WHERE a.property = 'Node A' AND b.property = 'Node B'
+    CREATE (a)-[e:RELTYPE {property:a.property + '<->' + b.property}]->(b)
+    RETURN e
+$$) as (e agtype);
+```
+
+Example 
+
+```bash
+SELECT * 
+FROM cypher('graph_name', $$
+    MATCH (a:Person), (b:Person)
+    WHERE a.name = 'Node A' AND b.name = 'Node B'
+    CREATE (a)-[e:RELTYPE {name:a.name + '<->' + b.name}]->(b)
+    RETURN e
+$$) as (e agtype);
+```
+
+<h2><img height="20" src="/img/community.svg">&nbsp;&nbsp;Community</h2>
+
+Join the AGE community for help, questions, dicussions and contrinuations. 
+
+- Check our [webiste](https://age.apache.org/)
+- Chat live with us on [Discord](https://discord.com/invite/NMsBs9X8Ss/)
+- Follow us on [Twitter](https://twitter.com/apache_age?s=20&t=7Hu8Txk4vjvuEp-ryakacg)
+- Connect with us on [LinkedIn](https://www.linkedin.com/showcase/apache-age/?viewAsMember=true)
+- See us on [YouTube](https://www.youtube.com/channel/UCBJNYamALEqrfxiOCgYyP2g)
+- Join our [Dev community](https://lists.apache.org/list.html?dev@age.apache.org)
+
+
+
+<h2><img height="20" src="/img/contributing.svg">&nbsp;&nbsp;Contributing</h2>
+There are multiple ways you can contribute to the Apache AGE and Apache AGE Viewer projects. If you are interested in the project and looking for ways to help, consult the list of projects in the Apache AGE and AGE Viewer GitHubs, or ask on the Apache AGE dev mailing list. 
+
+[contribution guide](CONTRIBUTING.md).
+
+
+
+
 
 
 
