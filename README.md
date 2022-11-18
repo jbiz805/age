@@ -173,31 +173,6 @@ docker run \
 
 
 
-<h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Getting Started</h2>
-
-
-
-
-
-
-
-<h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Language Specific Drivers</h2>
-
-Starting with Apache AGE is very simple. You can easily select your platform and incorporate the relevant SDK into your code.
-
-<h4>Built-in</h4>
-
-- [Go driver](./drivers/golang)
-- [Java driver](./drivers/jdbc)
-- [NodeJs driver](./drivers/nodejs)
-- [Python driver](./drivers/python)
-
-<h4>Community-driven Driver</h4>
-
-- [Apache AGE Rust Driver](https://github.com/Dzordzu/rust-apache-age.git)
-
-
-
 <h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Post Installation</h2>
 
 For every connection of AGE you start you will need to load the AGE extension.
@@ -285,6 +260,26 @@ FROM cypher('graph_name', $$
     RETURN e
 $$) as (e agtype);
 ```
+
+
+
+<h2><img height="20" src="/img/gettingstarted.svg">&nbsp;&nbsp;Language Specific Drivers</h2>
+
+Starting with Apache AGE is very simple. You can easily select your platform and incorporate the relevant SDK into your code.
+
+<h4>Built-in</h4>
+
+- [Go driver](./drivers/golang)
+- [Java driver](./drivers/jdbc)
+- [NodeJs driver](./drivers/nodejs)
+- [Python driver](./drivers/python)
+
+<h4>Community-driven Driver</h4>
+
+- [Apache AGE Rust Driver](https://github.com/Dzordzu/rust-apache-age.git)
+
+
+
 
 <h2><img height="20" src="/img/community.svg">&nbsp;&nbsp;Community</h2>
 
