@@ -86,7 +86,7 @@ Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual
 
 
 
-<h2><img height="20" src="/img/installation.png">&nbsp;&nbsp;Pre-Installation</h2>
+<h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Pre-Installation</h2>
 
 Install the following essential libraries according to each OS. Building AGE from source depends on the following Linux libraries (Ubuntu package names shown below):
 
@@ -103,7 +103,7 @@ dnf install gcc glibc bison flex readline readline-devel zlib zlib-devel
 sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 ```
 
-<h2><img height="20" src="/img/installation.png">&nbsp;&nbsp;Installation</h2>
+<h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
 
 Apache AGE is intended to be simple to install and run, requiring only one command from your terminal. Apache AGE can be installed with Docker and the traditional ways. 
 
