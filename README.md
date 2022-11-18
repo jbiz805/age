@@ -293,17 +293,6 @@ Join the AGE community for help, questions, dicussions and contrinuations.
 - Join our [Dev community](https://lists.apache.org/list.html?dev@age.apache.org)
 
 
-
-<h2><img height="20" src="/img/contributing.svg">&nbsp;&nbsp;Contributing</h2>
-There are multiple ways you can contribute to the Apache AGE and Apache AGE Viewer projects. If you are interested in the project and looking for ways to help, consult the list of projects in the Apache AGE and AGE Viewer GitHubs, or ask on the Apache AGE dev mailing list. 
-
-[contribution guide](CONTRIBUTING.md).
-
-
-
-
-
-
 <h2><img height="20" src="/img/visualization.svg">&nbsp;&nbsp;Graph Visualization Tool for AGE</h2>
 
 Apache AGE Viewer is a user interface for Apache AGE that provides visualization and exploration of data.
@@ -314,7 +303,7 @@ Apache AGE Viewer will become a graph data administration and development platfo
 **This is a visualization tool.**
 After installing AGE Extension, you may use this tool to get access to the visualization features.
 
-## Contribution
+<h2><img height="20" src="/img/contributing.svg">&nbsp;&nbsp;Contributing</h2>
 
 You can improve ongoing efforts or initiate new ones by sending pull requests to [this repository](https://github.com/apache/age).
 Also, you can learn from the code review process, how to merge pull requests, and from code style compliance to documentation, by visiting the [Apache AGE official site - Developer Guidelines](https://age.apache.org/contribution/guide).
