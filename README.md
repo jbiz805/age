@@ -309,8 +309,7 @@ There are multiple ways you can contribute to the Apache AGE and Apache AGE View
 
 
 
-
-## Graph Visualization Tool for AGE
+<h2><img height="20" src="/img/visualization.svg">&nbsp;&nbsp;Graph Visualization Tool for AGE</h2>
 
 Apache AGE Viewer is a user interface for Apache AGE that provides visualization and exploration of data.
 Through this simple web visualization tool, users can enter complex graph queries and explore the results in graph and table forms.
