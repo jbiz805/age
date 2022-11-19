@@ -79,6 +79,11 @@ Apache AGE is :
 - **Full PostgreSQL**: supports PG features
 
 
+![Database, gdb, and fast](/img/hybrid.png)
+![Database, gdb, and fast](/img/gdb.png)
+![Database, gdb, and fast](/img/fast.png)
+![Database, gdb, and fast](/img/gviz.png)
+
 
 <h2><img height="20" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
 
@@ -265,7 +270,6 @@ Starting with Apache AGE is very simple. You can easily select your platform a
 <h4>Community-driven Driver</h4>
 
 - [Apache AGE Rust Driver](https://github.com/Dzordzu/rust-apache-age.git)
-
 
 
 
