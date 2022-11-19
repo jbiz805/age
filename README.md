@@ -118,23 +118,11 @@ sudo apt install postgresql-12
 ```
 
 
-<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/apple.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/apple.svg"></a>
-&nbsp;Install on macOS
+<h4><img width="20" src="/img/white/apple.svg"> <img width="20" src="/img/white/linux.svg"> </a>
+
+&nbsp;Install on Linux and macOS
 </h4>
 
-
-The quickest way to get going with Apache AGE on macOS is the following. 
-
-```bash
-brew install surrealdb/tap/surreal
-```
-
-
-
-
-<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/linux.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/linux.svg"></a>
-&nbsp;Install on Linux </br></br> Clone the github repository or download an official release.
-</h4>
 
 
 ```bash
