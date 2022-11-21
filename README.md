@@ -123,7 +123,7 @@ sudo apt install postgresql-12
 ```
 
 
-<h4><img width="20" src="/img/white/apple.svg"> <img width="20" src="/img/tux.svg">
+<h4><img width="20" src="/img/apple.svg"> <img width="20" src="/img/tux.svg">
 
 
 
