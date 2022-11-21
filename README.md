@@ -124,7 +124,7 @@ sudo apt install postgresql-12
 
 
 <h4><img width="20" src="/img/white/apple.svg"> <img width="20" src="/img/tux.svg">
-<img width="20" src="/img/black/linux.svg"> </a>
+
 
 
 &nbsp;Install on Linux and macOS
@@ -143,7 +143,7 @@ make PG_CONFIG=/path/to/postgres/bin/pg_config install
 ```
 
 
-<h4><img width="20" src="/img/white/docker.svg"></a><img width="20" src="/img/black/docker.svg"></a>
+<h4></a><img width="20" src="/img/docker.svg"></a>
 &nbsp;Run using Docker
 </h4>
 
