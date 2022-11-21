@@ -123,7 +123,9 @@ sudo apt install postgresql-12
 ```
 
 
-<h4><img width="20" src="/img/white/apple.svg"> <img width="20" src="/img/white/linux.svg"> </a>
+<h4><img width="20" src="/img/white/apple.svg"> <img width="20" src="/img/white/linux.svg">
+<img width="20" src="/img/black/linux.svg"> </a>
+
 
 &nbsp;Install on Linux and macOS
 </h4>
@@ -141,7 +143,7 @@ make PG_CONFIG=/path/to/postgres/bin/pg_config install
 ```
 
 
-<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/white/docker.svg"></a><a href="https://surrealdb.com/install#gh-light-mode-only"><img width="20" src="/img/black/docker.svg"></a>
+<h4><img width="20" src="/img/white/docker.svg"></a><img width="20" src="/img/black/docker.svg"></a>
 &nbsp;Run using Docker
 </h4>
 
