@@ -282,8 +282,6 @@ Join the AGE community for help, questions, dicussions and contrinuations.
 - Check our [webiste](https://age.apache.org/)
 - Chat live with us on [Discord](https://discord.com/invite/NMsBs9X8Ss/)
 - Follow us on [Twitter](https://twitter.com/apache_age?s=20&t=7Hu8Txk4vjvuEp-ryakacg)
-- Connect with us on [LinkedIn](https://www.linkedin.com/showcase/apache-age/?viewAsMember=true)
-- See us on [YouTube](https://www.youtube.com/channel/UCBJNYamALEqrfxiOCgYyP2g)
 - Join our [Dev community](https://lists.apache.org/list.html?dev@age.apache.org)
 
 
