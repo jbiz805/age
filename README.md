@@ -138,9 +138,7 @@ You can <a href="https://www.postgresql.org/download/"> download the Postgres </
 
 
 
-<h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> 
-
-&nbsp;Install AGE 
+<h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> &nbsp;Install AGE 
 </h4>
 
 Clone the <a href="https://github.com/apache/age">github repository</a> or <a href="https://github.com/apache/age/releases">download an official release
