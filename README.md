@@ -110,7 +110,7 @@ sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 
 <h2><img height="30" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
 
-Apache AGE is intended to be simple to install and run and can be installed with Docker and the traditional ways. 
+Apache AGE is intended to be simple to install, run and can be installed with Docker and the traditional ways. 
 
 <h4><a><img width="20" src="/img/pg.svg"></a>
 &nbsp;Install PosgtreSQL
