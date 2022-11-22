@@ -141,7 +141,7 @@ You can <a href="https://www.postgresql.org/ftp/source/"> download the Postgres 
 <h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> &nbsp;Install AGE 
 </h4>
 
-Clone the <a href="https://github.com/apache/age">github repository</a> or <a href="https://github.com/apache/age/releases">download an official release
+Clone the <a href="https://github.com/apache/age">github repository</a> or <a href="https://github.com/apache/age/releases">download an official release.
 </a>
 Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL.
 <br>
