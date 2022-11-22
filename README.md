@@ -116,7 +116,7 @@ Apache AGE is intended to be simple to install and run, requiring only one comma
 &nbsp;Install PosgtreSQL
 </h4>
 
-You will need to install an AGE compatible version of Postgres.
+You will need to install an AGE <a href="for now AGE only supports Postgres 11 and 12.">compatible version of Postgres<a>, for now AGE only supports Postgres 11 and 12.
 
 ```bash
 sudo apt install postgresql 
@@ -126,7 +126,7 @@ sudo apt install postgresql
 &nbsp;Install From Source Code
 </h4>
 
-You can <a href="https://www.postgresql.org/download/"> download the Postgres </a> source code and install your own instance of Postgres. You can read instructions on how to install from source code on the offical Postgres Website
+You can <a href="https://www.postgresql.org/download/"> download the Postgres </a> source code and install your own instance of Postgres. You can read instructions on how to install from source code for differrent versions on the <a href="https://www.postgresql.org/docs/11/installation.html">offical Postgres Website</a>
 
 
 
