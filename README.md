@@ -120,7 +120,14 @@ You will need to install an AGE compatible version of Postgres.
 
 ```bash
 sudo apt install postgresql 
+
 ```
+<h4>
+&nbsp;Install From Source Code
+</h4>
+
+You can <a href="https://www.postgresql.org/download/"> download the Postgres </a> source code and install your own instance of Postgres. You can read instructions on how to install from source code on the offical Postgres Website
+
 
 
 <h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> 
