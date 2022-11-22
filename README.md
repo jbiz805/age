@@ -123,7 +123,7 @@ sudo apt install postgresql
 ```
 
 
-<h4><img width="20" src="/img/install.png"> 
+<h4><img width="20" src="/img/install.svg"> 
 
 &nbsp;Install AGE 
 </h4>
