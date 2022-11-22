@@ -112,7 +112,7 @@ sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 
 Apache AGE is intended to be simple to install and run, requiring only one command from your terminal. Apache AGE can be installed with Docker and the traditional ways. 
 
-<h4><a href="https://surrealdb.com/install#gh-dark-mode-only"><img width="20" src="/img/pg.svg"></a>
+<h4><a><img width="20" src="/img/pg.svg"></a>
 &nbsp;Install PosgtreSQL
 </h4>
 
