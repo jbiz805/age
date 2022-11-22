@@ -52,7 +52,7 @@
 <br>
 
 
-<h2><img height="20" src="/img/AGE.png">&nbsp;&nbsp;What is Apache AGE?</h2>
+<h2><img height="30" src="/img/AGE.png">&nbsp;&nbsp;What is Apache AGE?</h2>
 
 [Apache AGE](https://age.apache.org/#) is an extension for PostgreSQL that enables users to leverage a graph database on top of the existing relational databases. AGE is an acronym for A Graph Extension and is inspired by Bitnine's AgensGraph, a multi-model database fork of PostgreSQL. The basic principle of the project is to create a single storage that handles both the relational and graph data model so that the users can use the standard ANSI SQL along with openCypher, one of the most popular graph query languages today. 
 
@@ -60,7 +60,7 @@ Since AGE is based on the powerful PostgreSQL RDBMS, it is robust and fully feat
 
 There is a strong need for cohesive, easy-to-implement multi-model databases. As an extension of PostgreSQL, AGE supports all the functionalities and features of PostgreSQL while also offering a graph model to boot.
 
-<h2><img height="20" src="/img/tick.svg">&nbsp;&nbsp;Overview</h2>
+<h2><img height="30" src="/img/tick.svg">&nbsp;&nbsp;Overview</h2>
 
 Apache AGE is : 
 
@@ -69,7 +69,7 @@ Apache AGE is :
 - **Intelligent**: allows you to perform graph queries that are the basis for many next-level web services such as fraud detection, master data management, product recommendations, identity and relationship management, experience personalization, knowledge management, and more.
 
 
-<h2><img height="20" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
+<h2><img height="30" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
 
 - **Cypher Query**: supported graph query language
 - **Hybrid Querying**: enable SQL and/or Cypher
@@ -85,13 +85,13 @@ Apache AGE is :
 ![Database, gdb, and fast](/img/gviz.png)
 
 
-<h2><img height="20" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
+<h2><img height="30" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
 
 Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual/master/index.html) to learn about installation, features, built-in functions, and  Cypher queries.
 
 
 
-<h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Pre-Installation</h2>
+<h2><img height="30" src="/img/installation.svg">&nbsp;&nbsp;Pre-Installation</h2>
 
 Install the following essential libraries according to each OS. Building AGE from the source depends on the following Linux libraries (Ubuntu package names shown below):
 
@@ -108,7 +108,7 @@ dnf install gcc glibc bison flex readline readline-devel zlib zlib-devel
 sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 ```
 
-<h2><img height="20" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
+<h2><img height="30" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
 
 Apache AGE is intended to be simple to install and run, requiring only one command from your terminal. Apache AGE can be installed with Docker and the traditional ways. 
 
@@ -123,7 +123,7 @@ sudo apt install postgresql
 ```
 
 
-<h4><img width="20" src="/img/install.svg"> 
+<h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> 
 
 &nbsp;Install AGE 
 </h4>
@@ -141,7 +141,7 @@ make PG_CONFIG=/path/to/postgres/bin/pg_config install
 ```
 
 
-<h4></a><img width="20" src="/img/docker.svg"></a>
+<h4></a><img width="30" src="/img/docker.svg"></a>
 &nbsp;Run using Docker
 </h4>
 
