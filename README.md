@@ -143,14 +143,21 @@ You can <a href="https://www.postgresql.org/download/"> download the Postgres </
 &nbsp;Install AGE 
 </h4>
 
-
-
+Clone the <a href="https://github.com/apache/age">github repository</a> or <a href="https://github.com/apache/age/releases">download an official release
+</a>
+Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL.
+<br>
+    
 ```bash
 pg_config
 ```
+Run the following command in the source code directory of Apache AGE to build and install the extension.  
+     
 ```bash
 make install
 ```
+     
+If the path to your Postgres installation is not in the PATH variable, add the path in the arguments:
 ```bash
 make PG_CONFIG=/path/to/postgres/bin/pg_config install
 ```
