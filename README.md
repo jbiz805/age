@@ -71,13 +71,14 @@ Apache AGE is :
 
 <h2><img height="30" src="/img/features.svg">&nbsp;&nbsp;Features</h2>
 
-- **Cypher Query**: supported graph query language
-- **Hybrid Querying**: enable SQL and/or Cypher
-- **Querying**: enable multiple graphs
+- **Cypher Query**: supports graph query language
+- **Hybrid Querying**: enables SQL and/or Cypher
+- **Querying**: enables multiple graphs
 - **Hierarchical**: graph label organization
 - **Property Indexes**: on both vertices(nodes) and edges
 - **Full PostgreSQL**: supports PG features
 
+</br>
 
 ![Database, gdb, and fast](/img/hybrid.png)
 ![Database, gdb, and fast](/img/gdb.png)
@@ -110,7 +111,7 @@ sudo apt-get install build-essential libreadline-dev zlib1g-dev flex bison
 
 <h2><img height="30" src="/img/installation.svg">&nbsp;&nbsp;Installation</h2>
 
-Apache AGE is intended to be simple to install, run and can be installed with Docker and the traditional ways. 
+Apache AGE is intended to be simple to install and run. It can also be installed with Docker and other traditional ways. 
 
 <h4><a><img width="20" src="/img/pg.svg"></a>
 &nbsp;Install PosgtreSQL
@@ -134,16 +135,16 @@ sudo apt install postgresql
 &nbsp;Install From Source Code
 </h4>
 
-You can <a href="https://www.postgresql.org/ftp/source/"> download the Postgres </a> source code and install your own instance of Postgres. You can read instructions on how to install from source code for differrent versions on the <a href="https://www.postgresql.org/docs/11/installation.html">offical Postgres Website.</a>
+You can <a href="https://www.postgresql.org/ftp/source/"> download the Postgres </a> source code and install your own instance of Postgres. You can read instructions on how to install from source code for different versions on the <a href="https://www.postgresql.org/docs/11/installation.html">offical Postgres Website.</a>
 
 
 
 <h4><img width="30" src="https://age.apache.org/age-manual/master/_static/logo.png"> &nbsp;Install AGE 
 </h4>
 
-Clone the <a href="https://github.com/apache/age">github repository</a> or <a href="https://github.com/apache/age/releases">download an official release.
+Clone the <a href="https://github.com/apache/age">github repository</a> or download the <a href="https://github.com/apache/age/releases"> official release.
 </a>
-Run the pg_config utility and check the version of PostgreSQL, currently only PostgreSQL versions 11 & 12 are supported. If you have any other version of postgres, you will need to install PostgreSQL version 11 & 12. Follow Setting up multiple versions of PostgreSQL.
+Run the pg_config utility and check the version of PostgreSQL. Currently, only PostgreSQL versions 11 & 12 are supported. If you have any other version of Postgres, you will need to install PostgreSQL version 11 or 12. Follow Setting up multiple versions of PostgreSQL.
 <br>
     
 ```bash
@@ -188,7 +189,7 @@ docker run \
 
 <h2><img height="20" src="/img/contents.svg">&nbsp;&nbsp;Post Installation</h2>
 
-For every connection of AGE, you start, you will need to load the AGE extension.
+For every connection of AGE you start, you will need to load the AGE extension.
 
 ```bash
 CREATE EXTENSION age;
